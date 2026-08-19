@@ -1,0 +1,53 @@
+{
+  "league_name": "",
+  "platform": "sleeper | espn | yahoo | nfl | mfl | cbs",
+  "league_id": "",
+  "league_url": "",
+  "my_team_name": "",
+  "teams": 12,
+  "draft": {
+    "type": "snake | auction | linear",
+    "slot": null,
+    "date": "",
+    "clock_seconds": 90,
+    "auction_budget": null
+  },
+  "roster": {
+    "QB": 1,
+    "RB": 2,
+    "WR": 2,
+    "TE": 1,
+    "FLEX": 1,
+    "SUPERFLEX": 0,
+    "K": 1,
+    "DST": 1,
+    "BENCH": 6,
+    "IR": 1
+  },
+  "scoring": {
+    "ppr": 1.0,
+    "te_premium_bonus": 0.0,
+    "pass_td": 4,
+    "int": -2,
+    "pass_yd": 0.04,
+    "rush_yd": 0.1,
+    "rec_yd": 0.1,
+    "points_per_first_down": 0.0,
+    "bonuses": "",
+    "notes": ""
+  },
+  "waivers": {
+    "type": "faab | rolling | reverse_standings",
+    "faab_budget": 100,
+    "process_day": "wednesday",
+    "trade_deadline": "",
+    "veto": "commish | vote | none"
+  },
+  "playoffs": {
+    "teams": 6,
+    "weeks": "15-17",
+    "seeding_tiebreaker": "points_for"
+  },
+  "auto_pick_consent": false,
+  "paid_subscriptions": []
+}
